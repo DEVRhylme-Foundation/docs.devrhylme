@@ -3,16 +3,16 @@ title: Installation
 description: Installation guide for our application.
 ---
 
-Setting up AriaDocs is straightforward, with options to clone the repository or use the convenient `npx` command. AriaDocs requires [Node.js](https://nodejs.org/) version 18 or higher for optimal performance.
+Setting up DEVRhylmeDocs is straightforward, with options to clone the repository. DEVRhylmeDocs requires [Node.js](https://nodejs.org/) version 16 or higher for optimal performance.
 
 ## Clone Repository
-To get started, you can clone the AriaDocs repository directly from GitHub. 
+To get started, you can clone the DEVRhylmeDocs repository directly from GitHub. 
 <Stepper>
-  <StepperItem title="Step 1: Clone the AriaDocs Repository">
-    Begin by cloning the AriaDocs repository from GitHub:
+  <StepperItem title="Step 1: Clone the DEVRhylmeDocs Repository">
+    Begin by cloning the DEVRhylmeDocs repository from GitHub:
 
     ```plaintext
-    git clone https://github.com/nisabmohd/Aria-Docs.git
+    git clone https://github.com/DEVRhylme-Foundation/docs.devrhylme.git    
     ```
   </StepperItem>
 
@@ -20,7 +20,7 @@ To get started, you can clone the AriaDocs repository directly from GitHub.
     After cloning, navigate into the project directory to start setting up:
 
     ```plaintext
-    cd Aria-Docs
+    cd docs.devrhylme
     ```
   </StepperItem>
 
@@ -31,42 +31,43 @@ To get started, you can clone the AriaDocs repository directly from GitHub.
       To support React 19, package maintainers will need to test and update their packages to include React 19 as a peer dependency. This is already in progress.
     </Note>
 
-    ```plaintext
-    npm install
-    ```
-  </StepperItem>
+  <Tabs defaultValue="npm" className="pt-5 pb-1">
+    <TabsList>
+      <TabsTrigger value="npm">npm</TabsTrigger>
+      <TabsTrigger value="yarn">yarn</TabsTrigger>
+    </TabsList>
+    <TabsContent value="npm">
+      ```
+      npm install
+      ```
+    </TabsContent>
+    <TabsContent value="yarn">
+      ``` 
+      yarn install
+      ```
+    </TabsContent>
+  </Tabs>
+</StepperItem>
 
-  <StepperItem title="Step 4: Launch the Development Server">
-    Finally, start the development server to view the project locally:
-
-    ```plaintext
-    npm run dev
-    ```
+<StepperItem title="Step 4: Launch the Development Server">
+  Finally, start the development server to view the project locally:
+    <Tabs defaultValue="npm" className="pt-5 pb-1">
+      <TabsList>
+        <TabsTrigger value="npm">npm</TabsTrigger>
+        <TabsTrigger value="yarn">yarn</TabsTrigger>
+      </TabsList>
+      <TabsContent value="npm">
+        ```
+        npm run dev
+        ```
+      </TabsContent>
+      <TabsContent value="yarn">
+        ``` 
+        yarn run dev
+        ```
+      </TabsContent>
+    </Tabs>
   </StepperItem>
 </Stepper>
 
-## Quick Setup with npx
-
-For a faster setup, use the `npx` command to create a new AriaDocs project in one step:
-
-```plaintext
-npx create-aria-doc <project-directory>
-```
-
-**Command Output:**
-
-```plaintext
-Creating a new AriaDocs project in /path/to/your/project from the master branch...
-Cloning Master (Full Documentation)...
-AriaDocs project successfully created in /path/to/your/project!
-
-Next steps:
-1. Navigate to your project directory:
-   cd <project-directory>
-2. Install dependencies:
-   npm install
-3. Start the development server:
-   npm run dev
-```
-
-With this setup, you’ll have a ready-to-use AriaDocs instance to start building your documentation.
+With this setup, you’ll have a ready-to-use DEVRhylmeDocs instance to start building your documentation.
