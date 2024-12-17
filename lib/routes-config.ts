@@ -42,6 +42,20 @@ export const ROUTES: EachRoute[] = [
       },
     ],
   },
+  {
+    title: "ForgeX",
+    href: "/ForgeX/advanced-flag",
+    noLink: true,
+    items: [
+      { title: "Advance Flag", href: "/advance-flag" },
+      { title: "Docker", href: "/docker", },
+      { title: "GO Releaser", href: "/go-releaser" },
+      { title: "HTMX Template", href: "/htmx-template", },
+      { title: "VITE", href: "/react-vite", },
+      { title: "Tailwind", href: "/tailwind" },
+      { title: "Web Socket", href: "/websocket", },
+    ],
+  }
 ];
 
 type Page = { title: string; href: string };
