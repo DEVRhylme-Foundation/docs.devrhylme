@@ -15,13 +15,10 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
-        Effortlessly build stunning documentation sites with Next.js and server
-        components.
+        DevRhylme Foundation: Innovating AI and Open Source Solutions
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+        Advancing Blockchain, Go, and Python Libraries with Cutting-Edge AI. Building a Future for Open Source Communities Everywhere.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
