@@ -14,7 +14,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // if used turbopack
   // transpilePackages: ["next-mdx-remote"],
 };
 
