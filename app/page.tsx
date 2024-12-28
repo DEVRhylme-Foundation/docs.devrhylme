@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex sm:min-h-[85.5vh] min-h-[85vh] flex-col items-center justify-center text-center px-2 sm:py-8 py-12">
+    <div className="flex sm:min-h-[82vh] min-h-[85vh] flex-col items-center justify-center text-center px-2 sm:py-8 py-12">
       <Link
         href="https://github.com/DEVRhylme-Foundation/docs.devrhylme"
         target="_blank"
