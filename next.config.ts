@@ -8,10 +8,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "img.freepik.com/**",
       },
+      {
+        protocol: "https",
+        hostname: "media.roboflow.com/**",
+      },
     ],
   },
   // if used turbopack
-  // transpilePackages: ["next-mdx-remote"],
+  transpilePackages: ["next-mdx-remote"],
 };
 
 export default nextConfig;
