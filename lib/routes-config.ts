@@ -56,6 +56,33 @@ export const ROUTES: EachRoute[] = [
       { title: "Web Socket", href: "/websocket", },
     ],
   },
+
+  {
+    title: "Pixi",
+    href: "/Pixi/advanced",
+    noLink: true,
+    items: [
+        { title: "Advanced ", href: "/advanced" },
+        { title : "Assets" , href: "/assets"},
+        { title: "Build", href: "/build" },
+        { title: "Examples", href: "/examples" },
+        { title: "Features", href: "/features" },
+        { title: "IDE Integration", href: "/ide_integration" },
+        { title: "Overrides/Partials", href: "/overrides-partials" },
+        { title: "Reference", href: "/reference" },
+        { title: "Source Files", href: "/source_files" },
+        { title: "Stylesheets", href: "/stylesheets" },
+        { title: "Switching From", href: "/switching_from" },
+        { title: "Tutorials", href: "/tutorials" },
+        { title: "Community.md", href: "/Community.md" },
+        { title: "FAQ.md", href: "/FAQ.md" },
+        { title: "Basic Usage.md", href: "/basic_usage.md" },
+        { title: "Docs Hooks.py", href: "/docs_hooks.py" },
+        { title: "Index.md", href: "/index.md" },
+        { title: "Packaging.md", href: "/packaging.md" },
+        { title: "Vision.md", href: "/vision.md" }
+    ]
+},
   {
     title: "DragGAN",
     href: "/dragGan",
